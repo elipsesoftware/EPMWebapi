@@ -6,16 +6,16 @@ A **epmwebapi** é uma biblioteca para a linguagem Python construída com o obje
 **Requisitos:**
 * EPM Webserver 3.06 (para acesso aos dados do EPM Server, não precisa estar instalado na mesma máquina da epmwebapi).
 * Python 3.6 x64 ou superior
-* Numpy
-* Requests
-* Python-dateutil
-
 
 **Instalação:**
+
+Online(Recomendado):
+Após instalar o Python, digite no prompt de comando ou terminal: *pip install epmwebapi*. O instalador se encarregará de baixar e instalar a biblioteca e suas dependências.
+ 
+Offline: 
 * Faça do download do pacote através do site da [Elipse](https://www.elipse.com.br/downloads).
 * Faça a descompactação da pasta **epmwebapi** e copie para o diretório **site-packages** da instalação do Python.
-* A epmwebapi é multiplataforma.
-
+* Instale as dependências: Bibliotecas Numpy, Requests, Python-dateutil e Flask
 
 **Exemplos:**
 
