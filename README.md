@@ -15,7 +15,7 @@ Online(Recomendado):
 Offline: 
 * Faça do download do pacote através do site da [Elipse](https://www.elipse.com.br/downloads).
 * Faça a descompactação da pasta **epmwebapi** e copie para o diretório **site-packages** da instalação do Python.
-* Instale as dependências: Bibliotecas Numpy, Requests, Python-dateutil e Flask
+* Instale as dependências: Bibliotecas Numpy, Requests e Python-dateutil.
 
 **Exemplos:**
 
