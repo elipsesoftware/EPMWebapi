@@ -10,7 +10,7 @@ A **epmwebapi** é uma biblioteca para a linguagem Python construída com o obje
 **Instalação:**
 
 Online(Recomendado):
-Após instalar o Python, digite no prompt de comando ou terminal: *pip install epmwebapi*. O instalador se encarregará de baixar e instalar a biblioteca e suas dependências.
+* Após instalar o Python, digite no prompt de comando ou terminal: *pip install epmwebapi*. O instalador se encarregará de baixar e instalar a biblioteca e suas dependências.
  
 Offline: 
 * Faça do download do pacote através do site da [Elipse](https://www.elipse.com.br/downloads).
