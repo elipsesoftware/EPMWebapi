@@ -1,7 +1,11 @@
-# epmwebapi
+# Biblioteca Epmwebapi - Elipse Software LTDA
 
-A **epmwebapi** é uma biblioteca para a linguagem Python construída com o objetivo de interagir com os dados do **Elipse Plant Manager**, possibilitando uma maior flexibilidade para **buscar**, **organizar**, **analisar**, **compartilhar e monitorar os dados**. 
+A biblioteca **Epmwebapi** desenvolvida pela **Elipse Software**, permite a interação com os dados da sua plataforma 
+**Elipse Plant Manager(EPM)**. Possibilitando flexibilidade para buscar, organizar, analisar, compartilhar e monitorar os dados de processo industrial.
 
+Seu uso típico, mas não exclusivo, é a geração de indicadores, análises de dados, estatística e inteligência de processo voltados para sistemas industriais como Indústria Química, Petroquímica, Papel e Celulose, Siderúrgica, Energia, Saneamento, Data Centers, Prédios Inteligentes, entre outros. 
+
+Mais informações sobre o **EPM** podem ser encontradas no site https://www.elipse.com.br/produto/elipse-plant-manager/
 
 **Requisitos:**
 * EPM Webserver 3.06 (para acesso aos dados do EPM Server, não precisa estar instalado na mesma máquina da epmwebapi).
