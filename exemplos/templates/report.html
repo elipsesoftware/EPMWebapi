@@ -1,0 +1,15 @@
+{% extends 'baseA4.html' %}
+
+{% block title%}PDF Report{% endblock %}
+
+{% block content %}
+<h1>Relatório das Temperaturas das Salas</h1>
+<div display: block; page-break-before: always;>
+    <p><strong>Gráfico de tendência das temperaturas</strong></p>
+    <p><img src="data:image/png;base64,{{ img_trend }}"></p>
+</div>
+<div>
+    <p><strong>Gráfico boxplot das temperaturas</strong></p>
+    <p><img src="data:image/png;base64,{{ img_boxplot }}"></p>
+</div display: block; page-break-before: always;>
+{% endblock %}
