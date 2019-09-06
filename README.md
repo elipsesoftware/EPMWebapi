@@ -35,7 +35,7 @@ Offline:
 * [Análise de temperatura e conforto térmico](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/temp_elipse_ecc.ipynb) - Análises de dados reais de temperaturas das salas da Elipse.
 * [Criando mapas](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/maps.ipynb) - Trabalhando com dados de geolocalização e mapas interativos. 
 * [Acessando informações do EPM Server](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/server_information.ipynb) - Acessando informações como versão, chave de produto, diagnósticos dos Interface Servers, etc. 
-
+* [Gerando relatórios em HTML e/ou PDF](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/PdfReport_Temperatures.ipynb) - Gerando relatórios em HTML ou PDF, abordando questões sobre Jinja2, Base64, lendo informações de variáveis ambiente, criando séries temporais na Pandas convertendo UTC para hora local.
 
 
 
