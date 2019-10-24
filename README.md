@@ -21,14 +21,14 @@ Offline:
 * Faça a descompactação da pasta **epmwebapi** e copie para o diretório **site-packages** da instalação do Python.
 * Instale as dependências: Bibliotecas Numpy, Requests e Python-dateutil.
 
-**Exemplos:**
 
-**Nota: O Github tem apresentado dificuldades para mostrar os exemplos abaixo. Caso algum erro ocorra, utilize um link alternativo:**
+**Nota: O Github tem apresentado dificuldades para mostrar os exemplos abaixo. Em caso de erro, utilize este link alternativo:**
 
 [NBViewer](https://nbviewer.jupyter.org/github/elipsesoftware/epmwebapi/tree/master/exemplos/) - Visualizador de notebooks do Jupyter 
 
 **Se houver qualquer dificuldade para visualizar os exemplos, envie email para supportepm@elipse.com.br**
 
+**Exemplos:**
 
 * [Exemplo básico](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/Quickstart.ipynb) - Exemplos de leituras e escritas de dados e anotações. 
 * [Matplotlib](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/basic_use_matplotlib.ipynb) - Utilizando essa biblioteca para gerar gráficos.
