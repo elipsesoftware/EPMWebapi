@@ -23,6 +23,12 @@ Offline:
 
 **Exemplos:**
 
+**Nota: O Github tem apresentado dificuldades para renderizar os exemplos abaixo. Caso algum erro ocorra, utilize um  link alternativo: **
+[NbViewer](9https://nbviewer.jupyter.org/github/elipsesoftware/epmwebapi/tree/master/exemplos/) 
+
+**Se houver qualquer dificuldade para visualizar os exemplos, envie email para supportepm@elipse.com.br**
+
+
 * [Exemplo básico](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/Quickstart.ipynb) - Exemplos de leituras e escritas de dados e anotações. 
 * [Matplotlib](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/basic_use_matplotlib.ipynb) - Utilizando essa biblioteca para gerar gráficos.
 * [Pandas](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/basic_use_pandas.ipynb) - Use Pandas para manipular dados tabulares.
