@@ -23,7 +23,8 @@ Offline:
 
 **Exemplos:**
 
-**Nota: O Github tem apresentado dificuldades para renderizar os exemplos abaixo. Caso algum erro ocorra, utilize um  link alternativo: **
+**Nota: O Github tem apresentado dificuldades para renderizar os exemplos abaixo. Caso algum erro ocorra, utilize um  link alternativo:**
+
 [NbViewer](9https://nbviewer.jupyter.org/github/elipsesoftware/epmwebapi/tree/master/exemplos/) 
 
 **Se houver qualquer dificuldade para visualizar os exemplos, envie email para supportepm@elipse.com.br**
