@@ -22,9 +22,10 @@ Offline:
 * Instale as dependências: Bibliotecas Numpy, Requests e Python-dateutil.
 
 
-**Nota: O Github tem apresentado dificuldades para mostrar os exemplos abaixo. Em caso de erro, utilize este link alternativo:**
+**Nota: O Github tem apresentado dificuldades para mostrar os exemplos abaixo. Em caso de erro, utilize um destes links alternativos:**
 
-[NBViewer](https://nbviewer.jupyter.org/github/elipsesoftware/epmwebapi/tree/master/exemplos/) - Visualizador de notebooks do Jupyter 
+[NBViewer](https://nbviewer.jupyter.org/github/elipsesoftware/epmwebapi/tree/master/exemplos/) - Visualizador de notebooks do Jupyter
+[EPMTR](http://epmtr.elipse.com.br/repoepmwebapi) - Exemplos em HTML no servidor da Elipse
 
 **Se houver qualquer dificuldade para visualizar os exemplos, envie email para supportepm@elipse.com.br**
 
