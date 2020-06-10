@@ -26,7 +26,7 @@ Offline:
 
 [NBViewer](https://nbviewer.jupyter.org/github/elipsesoftware/epmwebapi/tree/master/exemplos/) - Visualizador de notebooks do Jupyter
 
-[EPMTR](http://epmtr.elipse.com.br/repoepmwebapi) - Exemplos em HTML no servidor da Elipse
+[EPMTR](http://epmtr.elipse.com.br/repoepmwebapi) - Exemplos em HTML no servidor da Elipse (Em manutenção)
 
 **Se houver qualquer dificuldade para visualizar os exemplos, envie email para supportepm@elipse.com.br**
 
