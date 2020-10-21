@@ -49,7 +49,7 @@ import epmwebapi as epm
 ```
 Create connection to an EPMWebServer available address. In this example  the EPMWebServer are installed in the same machine of the running code, and configured with default 44333 and 44332 ports
 ```python
-connection = epm.epm.EpmConnection('http://localhost:44333', 'http://address:44332', 'user', 'password')
+connection = epm.epm.EpmConnection('http://address:44333', 'http://address:44332', 'user', 'password')
 ```
 
 Reading raw data
