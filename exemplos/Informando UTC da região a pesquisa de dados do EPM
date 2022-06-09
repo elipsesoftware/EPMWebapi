@@ -1,0 +1,30 @@
+import epmwebapi as epm
+import pytz
+import datetime
+import os
+
+credentials = os.environ.get('user_and_password_dili').split(';')
+user = credentials[0]
+password = credentials[1]
+
+#cria conexao
+epmConn = epm.EpmConnection('http://dili:44333', 'http://dili:44332', user, password)
+
+path = 'ADM_Temperature'
+
+#3 porque dados estão em UTC no server
+tz_sp = pytz.timezone('America/Sao_Paulo')
+endtime = datetime.datetime.now(tz_sp)
+initime = endtime - datetime.timedelta(hours=2)
+processInterval = datetime.timedelta(minutes=10)
+
+queryPeriod = epm.QueryPeriod(iniTime, endTime)
+
+aggTimeAvgDetails = epm.AggregateDetails(processInterval, epm.AggregateType.TimeAverage)
+
+bv = epmConn.getDataObjects(path)
+
+result= bv[path].historyReadAggregate(aggTimeAvgDetails, queryPeriod)
+
+epmConn.close()
+result[0:5]
