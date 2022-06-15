@@ -1,7 +1,7 @@
 # Biblioteca Epmwebapi 
 
-A biblioteca **Epmwebapi** desenvolvida pela **Elipse Software**, permite a interação com os dados da sua plataforma 
-**Elipse Plant Manager(EPM)**. Possibilitando flexibilidade para buscar, organizar, analisar, compartilhar e monitorar os dados de processo industrial.
+Desenvolvida pela **Elipse Software**, a biblioteca **Epmwebapi** permite a interação com os dados da sua plataforma 
+**Elipse Plant Manager(EPM)**. Ela possibilita flexibilidade para buscar, organizar, analisar, compartilhar e monitorar os dados de processo industrial.
 
 Seu uso típico, mas não exclusivo, é a geração de indicadores, análises de dados, estatística e inteligência de processo voltados para sistemas industriais como Indústria Química, Petroquímica, Papel e Celulose, Siderúrgica, Energia, Saneamento, Data Centers, Prédios Inteligentes, entre outros. 
 
@@ -51,7 +51,7 @@ Offline:
 * [Lendo dados de arquivos TXT, CSV, XLSX e JSON](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/reading_from_file.ipynb) - Exemplos de leitura de dados de diversos tipos de arquivos (TXT, CSV, XLSX e JSON).
 * [Lendo dados de processo e convertendo para DataFrame do Pandas](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/sample01.ipynb) - leitura de dados de processo do EPM Server (OPC UA Server), criação de um DataFrame do módulo Pandas e exemplos de análises.
 * [Análise do conforto térmico](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/sample02.ipynb) - leitura de dados de processo do EPM Server (OPC UA Server), criação de um DataFrame do módulo Pandas e análise de conforto térmico ([Webinar - Análise de Dados com Python e Dashboard Web](https://youtu.be/IYg5yutkIhw)).
-* [Gerando relatórios em HTML e/ou PDF](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/PdfReport_Temperatures.ipynb) - Gerando relatórios em HTML ou PDF, abordando questões sobre Jinja2, Base64, lendo informações de variáveis ambiente, criando séries temporais na Pandas convertendo UTC para hora local.
+* [Gerando relatórios em HTML e/ou PDF](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/PdfReport_Temperatures.ipynb) - Gerando relatórios em HTML ou PDF, abordando questões sobre Jinja2, Base64, lendo informações de variáveis de ambiente, criando séries temporais na Pandas convertendo UTC para hora local.
 * [CRUD em Basic Variables](https://github.com/elipsesoftware/epmwebapi/blob/master/exemplos/basicvariables_CRUD.ipynb) - Criando, alterando configurações e excluindo Basic Variables do EPM Server. 
 
 
