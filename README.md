@@ -1,4 +1,4 @@
-# Biblioteca Epmwebapi 
+# Biblioteca Epmwebapi [<sup><sup><sup>(en-us)</sup></sup></sup>](https://github.com/elipsesoftware/epmwebapi/readme_us.md)
 
 Desenvolvida pela **Elipse Software**, a biblioteca **Epmwebapi** permite a interação com os dados da sua plataforma 
 **Elipse Plant Manager(EPM)**. Ela possibilita flexibilidade para buscar, organizar, analisar, compartilhar e monitorar os dados de processo industrial.
