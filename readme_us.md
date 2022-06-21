@@ -6,7 +6,7 @@ It gives you greater flexibility to search, organize, analyze, share, and monito
 It is commonly used for, but not limited to, generating indicators, data analysis, statistics, and intelligence processes geared at industrial systems such as 
 Chemical and Petrochemical Industries, Pulp and Paper, Steel, Energy, Water and Wastewater, Data Centers, Smart Buildings, among others.
 
-For further information about **EPM**, check out https://www.elipse.com.br/produto/elipse-plant-manager/
+For further information about **EPM**, check out [https://www.elipse.com.br/en/produto/elipse-plant-manager/](https://www.elipse.com.br/en/produto/elipse-plant-manager/)
 
 **Requirements:**
 * EPM Webserver 3.06 (for accessing data from EPM Server; it doesn’t need to be installed in the same device as epmwebapi).
