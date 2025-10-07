@@ -4,7 +4,7 @@
 
 Epmwebapi is installed as part of the [EPM Processor](https://github.com/elipsesoftware/EPMProcessor). So if you are using with it, there is no need to do the manual installation.
 
-But you can use it independently, acoording to your need. 
+But you can use it independently, acoording to your needs. 
 Then Epmwebapi can be installed via pip from [PyPI](https://pypi.org/project/epmwebapi/):
 
 `pip install epmwebapi`
@@ -25,7 +25,7 @@ Run `conda install pip` this will install pip to your venv directory.
 Install epmwebapi running `/anaconda/envs/venv_name/bin/pip install epmwebapi`
 
 ## Python version support
-Python 3.6 and 3.7. 
+Python 3.10 to 3.13. 
 
 ## Overview
 
