@@ -47,15 +47,16 @@ Import library
 ```python
 import epmwebapi as epm
 ```
-Create connection to an EPMWebServer available address. In this example  the EPMWebServer are installed in the same machine of the running code, and configured with default 44333 and 44332 ports
+Create connection to a EPM Web Server available address. In this example, EPM Web Server is installed at the same server of the running code, and configured with default 44340 and 44339 HTTPS ports
 ```python
-connection = epm.epm.EpmConnection('http://address:44333', 'http://address:44332', 'user', 'password')
+connection = epm.EpmConnection('https://localhost:44340', 'http://localhost:44339', '[user]', '[password]')
+# substitute [user] and [password] for the real ones.
 ```
 
 Reading raw data
 
 ```python
-#variable name
+# variable name
 variable_name = 'Temperature'
 
 #method to get the variable
@@ -74,10 +75,10 @@ The return of historyReadRaw is a Numpy ndarray time series with this format:
 
 |Value|Timestamp|Quality|
 |---|---|---|
-|0.12| datetime.datetime(2019, 12, 11, 15, 37, 59, 554738, tzinfo=datetime.timezone.utc)| 0
-|1.45| datetime.datetime(2019, 12, 11, 15, 45, 59, 554738, tzinfo=datetime.timezone.utc)| 0
-|5.00| datetime.datetime(2019, 12, 11, 15, 49, 59, 554738, tzinfo=datetime.timezone.utc)| 0
-|2.48| datetime.datetime(2019, 12, 11, 16, 7, 59, 554738, tzinfo=datetime.timezone.utc)| 0
-|6.00| datetime.datetime(2019, 12, 11, 16, 20, 59, 554738, tzinfo=datetime.timezone.utc)| 0
+|0.12| datetime.datetime(2025, 10, 7, 15, 37, 59, 554738, tzinfo=datetime.timezone.utc)| 0
+|1.45| datetime.datetime(2025, 10, 7, 15, 45, 59, 554738, tzinfo=datetime.timezone.utc)| 0
+|5.00| datetime.datetime(2025, 10, 7, 15, 49, 59, 554738, tzinfo=datetime.timezone.utc)| 0
+|2.48| datetime.datetime(2025, 10, 7, 16, 7, 59, 554738, tzinfo=datetime.timezone.utc)| 0
+|6.00| datetime.datetime(2025, 10, 7, 16, 20, 59, 554738, tzinfo=datetime.timezone.utc)| 0
 
 For more information take a look at the User Guide and the API Reference.
